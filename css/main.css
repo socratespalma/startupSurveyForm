@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* margin: 6vh 9vw; */
+  background-color: #ffe2fe;
+  text-align: center;
+}
+
+/* #description {
+  
+} */
+
+#survey-form {
+  background-color: #ffcf99;
+  max-width: 600px;
+  height: 60vh;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+  /* display: block; */
+  /* text-align: center; */
+  /* height: 70%; */
+  /* width: 100%; */
+  /* width: 100%; */
+}
+
+.form-control {
+  text-align: left;
+  margin-bottom: 3vh;
+}
+
+/* .form-control label {
+} */
+
+.form-control input {
+  display: block;
+}
