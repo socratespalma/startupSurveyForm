@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  /* font-weight: 400; */
 }
 
 body {
@@ -14,6 +16,11 @@ body {
   text-align: center;
 }
 
+#title {
+  margin: 3vh auto;
+  text-transform: capitalize;
+}
+
 /* #description {
   
 } */
@@ -21,10 +28,11 @@ body {
 #survey-form {
   background-color: #ffcf99;
   max-width: 600px;
-  height: 60vh;
-  margin: 0 auto;
+  /* height: 60vh; */
+  margin: 6vh auto;
   border-radius: 8px;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+  padding: 3vh 3vw;
   /* display: block; */
   /* text-align: center; */
   /* height: 70%; */
@@ -37,9 +45,31 @@ body {
   margin-bottom: 3vh;
 }
 
-/* .form-control label {
-} */
-
-.form-control input {
+.form-control label {
   display: block;
+  margin-bottom: 1.5vh;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea,
+#submit {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #777;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+  width: auto;
+  display: inline-block;
+}
+
+button {
+  color: white;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  background-color: #386fa4;
 }
